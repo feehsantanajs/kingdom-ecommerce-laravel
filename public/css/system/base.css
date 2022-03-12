@@ -1,0 +1,13 @@
+main{
+    gap:2rem;
+    font-size:1.5rem;
+}
+main a{
+    text-decoration: none;
+    color:var(--gray-900);
+    transition:filter 0.3s;
+}
+
+main a:hover{
+    filter:brightness(5);
+}

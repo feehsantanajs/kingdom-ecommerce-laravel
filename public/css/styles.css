@@ -1,0 +1,158 @@
+header{
+    background-color:var(--purple-900);
+    height:8rem;   
+
+}
+#container{
+
+
+    margin: 0 auto;
+    padding:1rem;
+    width:1120px;
+    min-width:500px;
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color:white;
+}
+
+.logo  a{
+    font-family: 'Indie Flower', cursive;
+    font-size: 3rem;
+    font-weight: 900;
+
+    background-image: linear-gradient(to bottom, #ED64A6, #805AD5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    text-decoration:none;
+    transition: filter 0.2s;
+}
+
+.logo  a:hover{
+    filter:brightness(1.4);
+}
+
+#container  input{
+    border:0;
+    border-radius:1rem;
+
+    width:12rem;
+    height:2rem;
+    padding:0.5rem;
+
+}
+
+.access a{
+    color:white;
+    text-decoration: none;
+    transition: filter 0.2s;
+}
+.access a:hover{
+    filter:brightness(0.7)
+}
+
+.cart{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+   gap:1rem;
+    
+}
+.cart img{
+   
+    
+    
+    width:35px;
+    height:35px;
+}
+
+
+
+main{
+    width:1120px;
+    min-height: 100vh;
+    padding:1rem;
+    min-width:500px;
+  
+    margin:0 auto;
+    
+    border-left:1px solid var(--gray-900);
+    border-right:1px solid var(--gray-900);
+    border-bottom:1px solid var(--gray-900);
+    
+    border-radius:0 0 0.5rem 0.5rem;
+
+    background-color: var(--purple-100);
+}
+
+p{
+    font-size:2rem;
+    
+}
+/*Products*/
+#show-box{
+    border-top:1px solid var(--gray-900);
+    padding:1rem;
+    display:flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#show-box a{
+    text-decoration: none;
+    transition: filter 0.25s;
+    
+}
+#show-box a:hover{
+    filter:brightness(0.6);
+   
+}
+
+.card-container{
+  
+    border-radius:1rem;
+    border:1px solid var(--gray-200);
+    display:flex;
+   
+    flex-direction: column;
+  
+
+    align-items: center;
+    justify-content: center;
+    
+    width:20rem;
+    height:25rem;
+    padding:1rem;
+    
+}
+.card-container p{
+    font-size:1rem;
+    font-weight: bold;
+    
+    color:var(--gray-900);
+    margin-bottom:6px;
+}
+.card-container h5{
+    font-size:0.7rem;
+    font-weight:500;
+    color:var(--gray-900);
+
+}
+.card-container .price{
+    color:var(--blue-900);
+    font-size:2rem;
+    font-weight: bold;
+}
+
+
+footer{
+   text-align: center;
+   padding:1rem;
+}
